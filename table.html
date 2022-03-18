@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>HTML</title>
+</head>
+<body>
+
+    <!-- table element
+            table = parent
+                tr = table row(child)
+                th = table header(child)
+                td = table data(child)
+
+                Attribute
+                    colspan = combining columns
+    
+    -->
+    <h2>Table using tr & th</h2>
+    <table border="1" width="300px">
+        <tr>
+            <th>Title 1</th>
+            <th>Title 2</th>
+            <th>Title 3</th>
+        </tr>
+        <tr>
+            <th>Title 4</th>
+            <th>Title 5</th>
+            <th>Title 6</th>
+        </tr>
+        <tr>
+            <th>Title 7</th>
+            <th>Title 8</th>
+            <th>Title 9</th>
+        </tr>
+    </table>
+
+    <h2>Table using tr and td</h2>
+    <table border="1">
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 4</td>
+            <td>data 5</td>
+            <td>data 6</td>
+        </tr>
+    </table>
+
+    <h2>Table using tr, th, td</h2>
+    <table border="1" width="300px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Alternate Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>28</td>
+            <td>john@gmail.com</td>
+            <td>john2@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Table using colspan</h2>
+    <table border="1" width="300px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Email</th>
+            <!-- <th>Alternate Email</th> -->
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>28</td>
+            <td>john@gmail.com</td>
+            <td>john2@gmail.com</td>
+        </tr>
+    </table>
+   
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.title{
+    background-color: aqua;
+}
+
+.maintitle{
+    background-color: red;
+}
+
+#lasttitle,h2,.maintitle{
+    background-color: yellow;
+}
